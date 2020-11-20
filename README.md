@@ -14,3 +14,11 @@ mvn io.quarkus:quarkus-maven-plugin:1.9.2.Final:create \
 
 
 
+## spring boot
+https://spring.io/quickstart
+goto https://start.spring.io/
+
+artifact: spring-boot-example
+jar, java 11
+add dependecy: web
+create zip and extract
