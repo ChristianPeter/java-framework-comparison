@@ -10,8 +10,10 @@ mvn io.quarkus:quarkus-maven-plugin:1.9.2.Final:create \
     -DprojectArtifactId=quarkus-example \
     -DclassName="org.acme.getting.started.GreetingResource" \
     -Dpath="/hello"
-```
 
+cd quarkus-example/
+./mvnw quarkus:dev
+```
 
 
 ## spring boot
@@ -22,3 +24,9 @@ artifact: spring-boot-example
 jar, java 11
 add dependecy: web
 create zip and extract
+
+```
+cd spring-boot-example
+./mvnw spring-boot:run
+```
+
